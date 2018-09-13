@@ -49,6 +49,14 @@
 		{
 			"Name": "OnlineSubsystemSteam",
 			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemIOS",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"TVOS"
+			]
 		}
 	],
 	"TargetPlatforms": [

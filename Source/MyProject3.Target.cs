@@ -8,7 +8,7 @@ public class MyProject3Target : TargetRules
 	public MyProject3Target(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-
+        bUsesSteam = true;
 		ExtraModuleNames.AddRange( new string[] { "MyProject3" } );
 	}
 }
